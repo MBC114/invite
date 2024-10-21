@@ -8,8 +8,8 @@ on:
       - '!.gitignore'
       - '!README.md'
   schedule:
-    # 每天晚六点十分执行一次
-    - cron:  '17 17 * * *'
+    # 每天5点十五执行一次
+    - cron:  '5 15 * * *'
 
 jobs:
   build:
